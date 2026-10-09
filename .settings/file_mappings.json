@@ -153,6 +153,47 @@
       "GlobalId": "04a2f094-e914-4f76-95b4-d054f8eca19d",
       "TabPath": "//registration",
       "ContentPath": "Pages/registration/tab.xml"
+    },
+    {
+      "GlobalId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "TabPath": "//RequestDetail",
+      "ContentPath": "Pages/RequestDetail/tab.xml"
+    },
+    {
+      "GlobalId": "87f2b952-d49e-4eab-baf2-3c2e2fc3e109",
+      "ParentPageGlobalId": "dec7ee4a-e592-4f45-90db-d6b0fc1da44b",
+      "TabPath": "//Administration//FundingRequests//FundingRequestComments//Detail",
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Detail/tab.xml"
+    },
+    {
+      "GlobalId": "dec7ee4a-e592-4f45-90db-d6b0fc1da44b",
+      "ParentPageGlobalId": "773fd8d0-2d27-4d6b-800c-28d9c6154869",
+      "TabPath": "//Administration//FundingRequests//FundingRequestComments",
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/tab.xml"
+    },
+    {
+      "GlobalId": "554bf10d-5a51-4a34-a869-316526474ad5",
+      "ParentPageGlobalId": "370bf593-6c4e-4587-8a8e-d7de39552c93",
+      "TabPath": "//Administration//FundingRequests//AuditEvents//Detail",
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Detail/tab.xml"
+    },
+    {
+      "GlobalId": "d9fef67a-5782-43d2-8d31-baba3e08f72e",
+      "ParentPageGlobalId": "1292609a-0561-4002-8402-57b8db4cf04d",
+      "TabPath": "//Administration//FundingRequests//AuditEvents//AuditEventTypes//Detail",
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Detail/tab.xml"
+    },
+    {
+      "GlobalId": "1292609a-0561-4002-8402-57b8db4cf04d",
+      "ParentPageGlobalId": "370bf593-6c4e-4587-8a8e-d7de39552c93",
+      "TabPath": "//Administration//FundingRequests//AuditEvents//AuditEventTypes",
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/tab.xml"
+    },
+    {
+      "GlobalId": "370bf593-6c4e-4587-8a8e-d7de39552c93",
+      "ParentPageGlobalId": "773fd8d0-2d27-4d6b-800c-28d9c6154869",
+      "TabPath": "//Administration//FundingRequests//AuditEvents",
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/tab.xml"
     }
   ],
   "Modules": [
@@ -758,6 +799,258 @@
       "PaneName": "ContentPane",
       "Order": 7,
       "ContentPath": "Pages/Administration/FundingRequests/FundingRequestLineItems/Detail/Tabs.xml"
+    },
+    {
+      "GlobalId": "9c1d0c6d-c600-47c5-b995-ba69369d8a2e",
+      "ParentPageId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "ModuleTitle": "Enter Title",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 9,
+      "ContentPath": "Pages/RequestDetail/Enter Title.xml"
+    },
+    {
+      "GlobalId": "f1126145-b1c0-4cd0-b896-cd1e4078e474",
+      "ParentPageId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "ModuleTitle": "Request Detail Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/RequestDetail/Request Detail Form.xml"
+    },
+    {
+      "GlobalId": "2c9f1bba-c5e9-470b-ac1d-834b710cb0f5",
+      "ParentPageId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "ModuleTitle": "Line Items",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "ContentPane",
+      "Order": 7,
+      "ContentPath": "Pages/RequestDetail/Line Items.xml"
+    },
+    {
+      "GlobalId": "2e70019c-6adf-424c-9f5f-1acff4ce6159",
+      "ParentPageId": "dec7ee4a-e592-4f45-90db-d6b0fc1da44b",
+      "ModuleTitle": "Header",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Header.xml"
+    },
+    {
+      "GlobalId": "3cfbcc4c-09d0-40f4-b457-b41f22aa56e0",
+      "ParentPageId": "dec7ee4a-e592-4f45-90db-d6b0fc1da44b",
+      "ModuleTitle": "Funding Request Comments Listing",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Funding Request Comments Listing.xml"
+    },
+    {
+      "GlobalId": "08183d7b-855a-4872-8b29-7133dcd07b71",
+      "ParentPageId": "dec7ee4a-e592-4f45-90db-d6b0fc1da44b",
+      "ModuleTitle": "Funding Request Comment Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Funding Request Comment Form.xml"
+    },
+    {
+      "GlobalId": "aaad6b37-ca33-4e22-9bd3-06a7c38457e7",
+      "ParentPageId": "87f2b952-d49e-4eab-baf2-3c2e2fc3e109",
+      "ModuleTitle": "Header Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Detail/Header Form.xml"
+    },
+    {
+      "GlobalId": "f856f3bb-3999-4718-b373-e1f7ca12c91d",
+      "ParentPageId": "87f2b952-d49e-4eab-baf2-3c2e2fc3e109",
+      "ModuleTitle": "Details Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Detail/Details Form.xml"
+    },
+    {
+      "GlobalId": "731896e9-76fa-4ff6-a108-a75c4de60eb7",
+      "ParentPageId": "87f2b952-d49e-4eab-baf2-3c2e2fc3e109",
+      "ModuleTitle": "Funding Request Comment Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Detail/Funding Request Comment Form.xml"
+    },
+    {
+      "GlobalId": "eb05d380-3437-4c36-be31-cfc65aa13253",
+      "ParentPageId": "87f2b952-d49e-4eab-baf2-3c2e2fc3e109",
+      "ModuleTitle": "Tabs",
+      "FriendlyName": "avt.TabsPro",
+      "PaneName": "ContentPane",
+      "Order": 7,
+      "ContentPath": "Pages/Administration/FundingRequests/FundingRequestComments/Detail/Tabs.xml"
+    },
+    {
+      "GlobalId": "369f5090-b3f5-4693-8f9e-54d139713a85",
+      "ParentPageId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "ModuleTitle": "Request Tabs",
+      "FriendlyName": "avt.TabsPro",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/RequestDetail/Request Tabs.xml"
+    },
+    {
+      "GlobalId": "dd34950b-850f-4b4f-a94d-cf5eda13233b",
+      "ParentPageId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "ModuleTitle": "Comments",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/RequestDetail/Comments.xml"
+    },
+    {
+      "GlobalId": "60c70ec9-0aa5-4fda-ab2e-90b588dfecc4",
+      "ParentPageId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "ModuleTitle": "Comments Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "P1_25_2",
+      "Order": 1,
+      "ContentPath": "Pages/RequestDetail/Comments Form.xml"
+    },
+    {
+      "GlobalId": "0c79b851-e6c7-4f0c-b2fe-46a0a4b68271",
+      "ParentPageId": "370bf593-6c4e-4587-8a8e-d7de39552c93",
+      "ModuleTitle": "Header",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Header.xml"
+    },
+    {
+      "GlobalId": "f4e0bfa3-3e57-4bcc-bb39-b53d6b08115d",
+      "ParentPageId": "370bf593-6c4e-4587-8a8e-d7de39552c93",
+      "ModuleTitle": "Audit Events Listing",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Audit Events Listing.xml"
+    },
+    {
+      "GlobalId": "d87f981d-c9ba-491e-aead-e3d8c37936a9",
+      "ParentPageId": "370bf593-6c4e-4587-8a8e-d7de39552c93",
+      "ModuleTitle": "Audit Event Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Audit Event Form.xml"
+    },
+    {
+      "GlobalId": "8a96f643-b680-49e3-bbb6-7489d961000e",
+      "ParentPageId": "554bf10d-5a51-4a34-a869-316526474ad5",
+      "ModuleTitle": "Header Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Detail/Header Form.xml"
+    },
+    {
+      "GlobalId": "da46518e-24bf-474a-aafa-3a5e7386a592",
+      "ParentPageId": "554bf10d-5a51-4a34-a869-316526474ad5",
+      "ModuleTitle": "Details Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Detail/Details Form.xml"
+    },
+    {
+      "GlobalId": "e1e6c418-45e6-48a5-82f8-346b8fca2d3e",
+      "ParentPageId": "554bf10d-5a51-4a34-a869-316526474ad5",
+      "ModuleTitle": "Funding Request Audit Event Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Detail/Funding Request Audit Event Form.xml"
+    },
+    {
+      "GlobalId": "ef160ff0-c583-48e0-9473-c8b1f9a1cab7",
+      "ParentPageId": "554bf10d-5a51-4a34-a869-316526474ad5",
+      "ModuleTitle": "Tabs",
+      "FriendlyName": "avt.TabsPro",
+      "PaneName": "ContentPane",
+      "Order": 7,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/Detail/Tabs.xml"
+    },
+    {
+      "GlobalId": "67561bcf-39aa-47f8-95a1-501e59e41d2f",
+      "ParentPageId": "1292609a-0561-4002-8402-57b8db4cf04d",
+      "ModuleTitle": "Header",
+      "FriendlyName": "Text/HTML",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Header.xml"
+    },
+    {
+      "GlobalId": "f63a8ef3-4581-40a3-b9b9-d56da6ac998f",
+      "ParentPageId": "1292609a-0561-4002-8402-57b8db4cf04d",
+      "ModuleTitle": "Audit Event Types Listing",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Audit Event Types Listing.xml"
+    },
+    {
+      "GlobalId": "43cf4f18-caf0-4870-b7e1-2318a0d0b31b",
+      "ParentPageId": "1292609a-0561-4002-8402-57b8db4cf04d",
+      "ModuleTitle": "Audit Event Type Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Audit Event Type Form.xml"
+    },
+    {
+      "GlobalId": "6437c921-36bf-4f43-8ad6-0885ec968605",
+      "ParentPageId": "d9fef67a-5782-43d2-8d31-baba3e08f72e",
+      "ModuleTitle": "Header Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 1,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Detail/Header Form.xml"
+    },
+    {
+      "GlobalId": "9028013b-3b59-4876-81ca-9426c8f8f32a",
+      "ParentPageId": "d9fef67a-5782-43d2-8d31-baba3e08f72e",
+      "ModuleTitle": "Details Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 3,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Detail/Details Form.xml"
+    },
+    {
+      "GlobalId": "e4732765-3a06-46af-ad1b-d282e1997aab",
+      "ParentPageId": "d9fef67a-5782-43d2-8d31-baba3e08f72e",
+      "ModuleTitle": "Funding Request Audit Event Type Form",
+      "FriendlyName": "avt.Action Form",
+      "PaneName": "ContentPane",
+      "Order": 5,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Detail/Funding Request Audit Event Type Form.xml"
+    },
+    {
+      "GlobalId": "382232d1-a9a8-42f1-888a-4984be103309",
+      "ParentPageId": "d9fef67a-5782-43d2-8d31-baba3e08f72e",
+      "ModuleTitle": "Tabs",
+      "FriendlyName": "avt.TabsPro",
+      "PaneName": "ContentPane",
+      "Order": 7,
+      "ContentPath": "Pages/Administration/FundingRequests/AuditEvents/AuditEventTypes/Detail/Tabs.xml"
+    },
+    {
+      "GlobalId": "bea8c441-2cad-4252-88f0-09c9b1adb0d0",
+      "ParentPageId": "46f3ca4a-be2e-4187-9103-c7a4bac69487",
+      "ModuleTitle": "Audit Timeline",
+      "FriendlyName": "avt.ActionGrid",
+      "PaneName": "P4_50_2",
+      "Order": 1,
+      "ContentPath": "Pages/RequestDetail/Audit Timeline.xml"
     }
   ],
   "TokenNamespaces": [
@@ -996,6 +1289,21 @@
       "GlobalId": "ed18dda0-7a32-4ac2-8c1c-b9f73a922297",
       "NamespaceGlobalId": "d9eccd57-500d-4825-991b-1b011ca7cbca",
       "ContentPath": "Entities/Default/Funding Request Line Item.json"
+    },
+    {
+      "GlobalId": "e373c36d-1294-4884-b2f6-52d67736bb4e",
+      "NamespaceGlobalId": "d9eccd57-500d-4825-991b-1b011ca7cbca",
+      "ContentPath": "Entities/Default/Funding Request Comment.json"
+    },
+    {
+      "GlobalId": "da00d927-3bc8-4423-8374-1a0d010ab8de",
+      "NamespaceGlobalId": "d9eccd57-500d-4825-991b-1b011ca7cbca",
+      "ContentPath": "Entities/Default/Audit Event.json"
+    },
+    {
+      "GlobalId": "c337cdf4-ba82-4126-8a67-81e7f8848404",
+      "NamespaceGlobalId": "d9eccd57-500d-4825-991b-1b011ca7cbca",
+      "ContentPath": "Entities/Default/Audit Event Type.json"
     }
   ],
   "ApiMethods": [],
@@ -1176,6 +1484,12 @@
       "NamespaceGlobalId": "d9eccd57-500d-4825-991b-1b011ca7cbca",
       "DefinitionPath": "Workflows/Default/Update Funding Request Requested Amount from Line Items/workflow.json",
       "DiagramPath": "Workflows/Default/Update Funding Request Requested Amount from Line Items/diagram.xml"
+    },
+    {
+      "GlobalId": "a5dcb1c4-6549-48e6-b7dd-416b70f9d044",
+      "NamespaceGlobalId": "d9eccd57-500d-4825-991b-1b011ca7cbca",
+      "DefinitionPath": "Workflows/Default/Record Audit Event/workflow.json",
+      "DiagramPath": "Workflows/Default/Record Audit Event/diagram.xml"
     }
   ]
 }
