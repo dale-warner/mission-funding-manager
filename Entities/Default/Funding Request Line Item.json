@@ -1,0 +1,507 @@
+{
+  "Children": [],
+  "DisplayInMenu": true,
+  "ParentPageId": 56,
+  "DisplayAfter": null,
+  "RecordNamePropertyId": 40,
+  "UpdateRecordNameProperty": null,
+  "ShowDashboardModule": false,
+  "GenerateApiAccess": false,
+  "Properties": [
+    {
+      "Id": 39,
+      "GlobalId": "a1ac7e50-ba3a-4f1f-bd95-3eea7556aeea",
+      "EntityVersionId": 11,
+      "Name": "Funding Request",
+      "Type": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "InputType": {
+          "Id": "EntityRef",
+          "Name": "Entity Reference",
+          "ValueType": 7,
+          "Length": 4,
+          "Icon": null
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": 8,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": true,
+      "IsSortable": true,
+      "OrderIndex": 1
+    },
+    {
+      "Id": 40,
+      "GlobalId": "acdabc3a-6e44-46e8-b11d-44912ecb9111",
+      "EntityVersionId": 11,
+      "Name": "Description",
+      "Type": {
+        "Id": "Text",
+        "Name": "Text",
+        "InputType": {
+          "Id": "Text",
+          "Name": "Text",
+          "ValueType": 2,
+          "Length": 450,
+          "Icon": "short_text"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": true,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 2
+    },
+    {
+      "Id": 41,
+      "GlobalId": "cd599512-dd42-4be7-bba3-bdbf6d917dff",
+      "EntityVersionId": 11,
+      "Name": "Amount",
+      "Type": {
+        "Id": "Money",
+        "Name": "Money",
+        "InputType": {
+          "Id": "Money",
+          "Name": "Money",
+          "ValueType": 8,
+          "Length": 17,
+          "Icon": "attach_money"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 3
+    },
+    {
+      "Id": 42,
+      "GlobalId": "27f7b290-5ab0-442c-9665-3b0d2b35e3c2",
+      "EntityVersionId": 11,
+      "Name": "Quantity",
+      "Type": {
+        "Id": "Decimal",
+        "Name": "Number (Decimal)",
+        "InputType": {
+          "Id": "Decimal",
+          "Name": "Number (Decimal)",
+          "ValueType": 8,
+          "Length": 4,
+          "Icon": "looks_one"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 4
+    },
+    {
+      "Id": 43,
+      "GlobalId": "b839ab82-a386-46c7-820e-54702f98bd2f",
+      "EntityVersionId": 11,
+      "Name": "Unit Cost",
+      "Type": {
+        "Id": "Money",
+        "Name": "Money",
+        "InputType": {
+          "Id": "Money",
+          "Name": "Money",
+          "ValueType": 8,
+          "Length": 17,
+          "Icon": "attach_money"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 5
+    },
+    {
+      "Id": 44,
+      "GlobalId": "c823aaf1-2c4b-4cf0-9fe6-a0862d40a233",
+      "EntityVersionId": 11,
+      "Name": "Sort Order",
+      "Type": {
+        "Id": "Integer",
+        "Name": "Number (Integer)",
+        "InputType": {
+          "Id": "Integer",
+          "Name": "Number (Integer)",
+          "ValueType": 1,
+          "Length": 4,
+          "Icon": "looks_one"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 6
+    }
+  ],
+  "RolePermissions": {
+    "12": [
+      {
+        "Id": 151,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "own"
+      },
+      {
+        "Id": 152,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "true"
+      },
+      {
+        "Id": 153,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "own"
+      },
+      {
+        "Id": 154,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "own"
+      }
+    ],
+    "13": [
+      {
+        "Id": 155,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 13,
+        "RoleName": "Reviewer",
+        "Value": "all"
+      },
+      {
+        "Id": 156,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 13,
+        "RoleName": "Reviewer",
+        "Value": "all"
+      }
+    ],
+    "14": [
+      {
+        "Id": 157,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 14,
+        "RoleName": "Approver",
+        "Value": "all"
+      },
+      {
+        "Id": 158,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 14,
+        "RoleName": "Approver",
+        "Value": "all"
+      }
+    ],
+    "15": [
+      {
+        "Id": 159,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 15,
+        "RoleName": "Program Manager",
+        "Value": "all"
+      },
+      {
+        "Id": 160,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 15,
+        "RoleName": "Program Manager",
+        "Value": "all"
+      }
+    ],
+    "16": [
+      {
+        "Id": 161,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "all"
+      },
+      {
+        "Id": 162,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "true"
+      },
+      {
+        "Id": 163,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "all"
+      },
+      {
+        "Id": 164,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "all"
+      }
+    ],
+    "1": [
+      {
+        "Id": 165,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "all"
+      },
+      {
+        "Id": 166,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "true"
+      },
+      {
+        "Id": 167,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "all"
+      },
+      {
+        "Id": 168,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "all"
+      }
+    ],
+    "2": [
+      {
+        "Id": 169,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "all"
+      },
+      {
+        "Id": 170,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "true"
+      },
+      {
+        "Id": 171,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "all"
+      },
+      {
+        "Id": 172,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "all"
+      }
+    ],
+    "3": [
+      {
+        "Id": 173,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "all"
+      },
+      {
+        "Id": 174,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "true"
+      },
+      {
+        "Id": 175,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "all"
+      },
+      {
+        "Id": 176,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "all"
+      }
+    ],
+    "4": [
+      {
+        "Id": 177,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "all"
+      },
+      {
+        "Id": 178,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "true"
+      },
+      {
+        "Id": 179,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "all"
+      },
+      {
+        "Id": 180,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "all"
+      }
+    ]
+  },
+  "Id": 11,
+  "GlobalId": "ed18dda0-7a32-4ac2-8c1c-b9f73a922297",
+  "ConfigGenerationGlobalId": "ed18dda0-7a32-4ac2-8c1c-b9f73a922297",
+  "VersionId": 11,
+  "EntityTabId": 62,
+  "Name": "Funding Request Line Item",
+  "PluralName": "Funding Request Line Items",
+  "PageUiLibrary": 2,
+  "CreatedDate": "2026-10-06T16:49:07.1933333",
+  "CreatedBy": "Dale Warner",
+  "LastModifiedBy": "",
+  "LastModifiedOn": null,
+  "Icon": "table",
+  "Type": 0,
+  "BuiltInType": null,
+  "EnableIndexing": false,
+  "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad",
+  "EntityTabGlobalId": "590854ae-700e-40ce-950c-4bc3e5a1de3f",
+  "EntityParentTabGlobalId": "773fd8d0-2d27-4d6b-800c-28d9c6154869"
+}

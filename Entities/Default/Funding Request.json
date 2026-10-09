@@ -1,0 +1,741 @@
+{
+  "Children": [],
+  "DisplayInMenu": true,
+  "ParentPageId": 49,
+  "DisplayAfter": null,
+  "RecordNamePropertyId": 20,
+  "UpdateRecordNameProperty": null,
+  "ShowDashboardModule": false,
+  "GenerateApiAccess": false,
+  "Properties": [
+    {
+      "Id": 20,
+      "GlobalId": "e39fe6c6-ae06-4938-b5f3-ca35ef5e54f4",
+      "EntityVersionId": 8,
+      "Name": "Request Number",
+      "Type": {
+        "Id": "Text",
+        "Name": "Text",
+        "InputType": {
+          "Id": "Text",
+          "Name": "Text",
+          "ValueType": 2,
+          "Length": 450,
+          "Icon": "short_text"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": true,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 1
+    },
+    {
+      "Id": 21,
+      "GlobalId": "2a89cc0b-b1ae-412f-af43-b7ea9d3f49b8",
+      "EntityVersionId": 8,
+      "Name": "Title",
+      "Type": {
+        "Id": "Text",
+        "Name": "Text",
+        "InputType": {
+          "Id": "Text",
+          "Name": "Text",
+          "ValueType": 2,
+          "Length": 450,
+          "Icon": "short_text"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": true,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 2
+    },
+    {
+      "Id": 22,
+      "GlobalId": "819f9306-f103-4f43-9406-3d47955d5a47",
+      "EntityVersionId": 8,
+      "Name": "Description",
+      "Type": {
+        "Id": "LargeText",
+        "Name": "Large Text",
+        "InputType": {
+          "Id": "LargeText",
+          "Name": "Large Text",
+          "ValueType": 2,
+          "Length": 2147483647,
+          "Icon": "notes"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": true,
+      "IsFilterable": false,
+      "IsSortable": false,
+      "OrderIndex": 3
+    },
+    {
+      "Id": 23,
+      "GlobalId": "3c765e3a-086c-46f0-a381-9c7297ef9ce5",
+      "EntityVersionId": 8,
+      "Name": "Mission Need",
+      "Type": {
+        "Id": "LargeText",
+        "Name": "Large Text",
+        "InputType": {
+          "Id": "LargeText",
+          "Name": "Large Text",
+          "ValueType": 2,
+          "Length": 2147483647,
+          "Icon": "notes"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": true,
+      "IsFilterable": false,
+      "IsSortable": false,
+      "OrderIndex": 4
+    },
+    {
+      "Id": 24,
+      "GlobalId": "a3e4cc40-95e5-419a-a30d-c4ba6073ae2a",
+      "EntityVersionId": 8,
+      "Name": "Organization",
+      "Type": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "InputType": {
+          "Id": "EntityRef",
+          "Name": "Entity Reference",
+          "ValueType": 7,
+          "Length": 4,
+          "Icon": null
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": 5,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": true,
+      "IsSortable": true,
+      "OrderIndex": 5
+    },
+    {
+      "Id": 25,
+      "GlobalId": "819b7b37-426b-4d73-ad03-635986abcfaa",
+      "EntityVersionId": 8,
+      "Name": "Funding Category",
+      "Type": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "InputType": {
+          "Id": "EntityRef",
+          "Name": "Entity Reference",
+          "ValueType": 7,
+          "Length": 4,
+          "Icon": null
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": 6,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": true,
+      "IsSortable": true,
+      "OrderIndex": 6
+    },
+    {
+      "Id": 26,
+      "GlobalId": "b5965f96-dbdd-4d6a-8af9-69cb3cc16353",
+      "EntityVersionId": 8,
+      "Name": "Fiscal Year",
+      "Type": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "InputType": {
+          "Id": "EntityRef",
+          "Name": "Entity Reference",
+          "ValueType": 7,
+          "Length": 4,
+          "Icon": null
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": 7,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 7
+    },
+    {
+      "Id": 27,
+      "GlobalId": "822c4a46-f05f-4bbe-b87a-8e057dfa9172",
+      "EntityVersionId": 8,
+      "Name": "Requester User",
+      "Type": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "InputType": {
+          "Id": "EntityRef",
+          "Name": "Entity Reference",
+          "ValueType": 7,
+          "Length": 4,
+          "Icon": null
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": 1,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 8
+    },
+    {
+      "Id": 28,
+      "GlobalId": "44ffe906-0fb2-4aba-8528-d6c91ecbbfa1",
+      "EntityVersionId": 8,
+      "Name": "Requested Amount",
+      "Type": {
+        "Id": "Money",
+        "Name": "Money",
+        "InputType": {
+          "Id": "Money",
+          "Name": "Money",
+          "ValueType": 8,
+          "Length": 17,
+          "Icon": "attach_money"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 9
+    },
+    {
+      "Id": 29,
+      "GlobalId": "63d53d65-9814-4ba3-bbea-9ac2deceba0a",
+      "EntityVersionId": 8,
+      "Name": "Approved Amount",
+      "Type": {
+        "Id": "Money",
+        "Name": "Money",
+        "InputType": {
+          "Id": "Money",
+          "Name": "Money",
+          "ValueType": 8,
+          "Length": 17,
+          "Icon": "attach_money"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 10
+    },
+    {
+      "Id": 30,
+      "GlobalId": "966845e0-b23b-4db1-89a9-48d1ab178e78",
+      "EntityVersionId": 8,
+      "Name": "Need By Date",
+      "Type": {
+        "Id": "Date",
+        "Name": "Date",
+        "InputType": {
+          "Id": "Date",
+          "Name": "Date",
+          "ValueType": 3,
+          "Length": 3,
+          "Icon": "calendar_today"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 11
+    },
+    {
+      "Id": 35,
+      "GlobalId": "b7e4aeab-a2f1-4d52-8900-61ae81f61486",
+      "EntityVersionId": 8,
+      "Name": "Priority",
+      "Type": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "InputType": {
+          "Id": "EntityRef",
+          "Name": "Entity Reference",
+          "ValueType": 7,
+          "Length": 4,
+          "Icon": null
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": 10,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 12
+    },
+    {
+      "Id": 36,
+      "GlobalId": "1ebe28a3-3bd8-4afe-9cab-63102c66fab6",
+      "EntityVersionId": 8,
+      "Name": "Status",
+      "Type": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "InputType": {
+          "Id": "EntityRef",
+          "Name": "Entity Reference",
+          "ValueType": 7,
+          "Length": 4,
+          "Icon": null
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": 9,
+      "IsDeleted": false,
+      "IsRequired": true,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 14
+    },
+    {
+      "Id": 37,
+      "GlobalId": "7efdcb25-50c4-471d-92c2-b485b7761e3d",
+      "EntityVersionId": 8,
+      "Name": "Submitted Date",
+      "Type": {
+        "Id": "DateTime",
+        "Name": "Date and Time",
+        "InputType": {
+          "Id": "DateTime",
+          "Name": "Date and Time",
+          "ValueType": 5,
+          "Length": 8,
+          "Icon": "today"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 13
+    },
+    {
+      "Id": 38,
+      "GlobalId": "18cfc952-7705-4a75-a1c9-879b88fb4461",
+      "EntityVersionId": 8,
+      "Name": "Decision Date",
+      "Type": {
+        "Id": "DateTime",
+        "Name": "Date and Time",
+        "InputType": {
+          "Id": "DateTime",
+          "Name": "Date and Time",
+          "ValueType": 5,
+          "Length": 8,
+          "Icon": "today"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": true,
+      "IsFilterable": false,
+      "IsSortable": true,
+      "OrderIndex": 15
+    }
+  ],
+  "RolePermissions": {
+    "12": [
+      {
+        "Id": 89,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "own"
+      },
+      {
+        "Id": 90,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "true"
+      },
+      {
+        "Id": 91,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "own"
+      },
+      {
+        "Id": 92,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 12,
+        "RoleName": "Requester",
+        "Value": "own"
+      }
+    ],
+    "13": [
+      {
+        "Id": 93,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 13,
+        "RoleName": "Reviewer",
+        "Value": "all"
+      },
+      {
+        "Id": 94,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 13,
+        "RoleName": "Reviewer",
+        "Value": "all"
+      }
+    ],
+    "14": [
+      {
+        "Id": 95,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 14,
+        "RoleName": "Approver",
+        "Value": "all"
+      },
+      {
+        "Id": 96,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 14,
+        "RoleName": "Approver",
+        "Value": "all"
+      }
+    ],
+    "15": [
+      {
+        "Id": 97,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 15,
+        "RoleName": "Program Manager",
+        "Value": "all"
+      },
+      {
+        "Id": 98,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 15,
+        "RoleName": "Program Manager",
+        "Value": "all"
+      }
+    ],
+    "16": [
+      {
+        "Id": 99,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "all"
+      },
+      {
+        "Id": 100,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "true"
+      },
+      {
+        "Id": 101,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "all"
+      },
+      {
+        "Id": 102,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 16,
+        "RoleName": "MFM Administrator",
+        "Value": "all"
+      }
+    ],
+    "1": [
+      {
+        "Id": 103,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "all"
+      },
+      {
+        "Id": 104,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "true"
+      },
+      {
+        "Id": 105,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "all"
+      },
+      {
+        "Id": 106,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 1,
+        "RoleName": "Admins",
+        "Value": "all"
+      }
+    ],
+    "2": [
+      {
+        "Id": 107,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "all"
+      },
+      {
+        "Id": 108,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "true"
+      },
+      {
+        "Id": 109,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "all"
+      },
+      {
+        "Id": 110,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 2,
+        "RoleName": "Citizen Developers",
+        "Value": "all"
+      }
+    ],
+    "3": [
+      {
+        "Id": 111,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "all"
+      },
+      {
+        "Id": 112,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "true"
+      },
+      {
+        "Id": 113,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "all"
+      },
+      {
+        "Id": 114,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 3,
+        "RoleName": "Low-Code Engineer",
+        "Value": "all"
+      }
+    ],
+    "4": [
+      {
+        "Id": 115,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "all"
+      },
+      {
+        "Id": 116,
+        "PermissionType": {
+          "Id": 2,
+          "Name": "Can Add"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "true"
+      },
+      {
+        "Id": 117,
+        "PermissionType": {
+          "Id": 3,
+          "Name": "Can Edit"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "all"
+      },
+      {
+        "Id": 118,
+        "PermissionType": {
+          "Id": 4,
+          "Name": "Can Delete"
+        },
+        "RoleId": 4,
+        "RoleName": "Managers",
+        "Value": "all"
+      }
+    ]
+  },
+  "Id": 8,
+  "GlobalId": "a6261eaa-157e-4298-817b-d60d9a016d0f",
+  "ConfigGenerationGlobalId": "a6261eaa-157e-4298-817b-d60d9a016d0f",
+  "VersionId": 8,
+  "EntityTabId": 56,
+  "Name": "Funding Request",
+  "PluralName": "Funding Requests",
+  "PageUiLibrary": 2,
+  "CreatedDate": "2026-10-06T16:32:57.32",
+  "CreatedBy": "Dale Warner",
+  "LastModifiedBy": "Dale Warner",
+  "LastModifiedOn": "2026-10-06T16:43:19.0366667",
+  "Icon": "table",
+  "Type": 0,
+  "BuiltInType": null,
+  "EnableIndexing": false,
+  "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad",
+  "EntityTabGlobalId": "773fd8d0-2d27-4d6b-800c-28d9c6154869",
+  "EntityParentTabGlobalId": "d6f23d90-c9ae-4a13-934c-c2204f26ced3"
+}

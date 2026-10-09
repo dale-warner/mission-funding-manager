@@ -1,0 +1,355 @@
+{
+  "InputFields": [
+    {
+      "Id": 29,
+      "Name": "FundingRequest",
+      "DefaultValue": "",
+      "Type": "Input",
+      "InputType": "EntityRef",
+      "EntityVersionId": 8,
+      "WorkflowId": 24,
+      "ContractFieldId": null,
+      "IsDeleted": false,
+      "Required": false,
+      "Description": null,
+      "OrderIndex": 0
+    }
+  ],
+  "OutputFields": [
+    {
+      "Id": 30,
+      "Name": "RequestedAmount",
+      "DefaultValue": "[RequestedAmount]",
+      "Type": "Output",
+      "InputType": "Text",
+      "EntityVersionId": null,
+      "WorkflowId": 24,
+      "ContractFieldId": null,
+      "IsDeleted": false,
+      "Required": false,
+      "Description": "The new requested amount",
+      "OrderIndex": 0
+    }
+  ],
+  "Id": 24,
+  "GlobalId": "ea1ec2c4-72a5-4cc0-9c1a-90f9ea400507",
+  "ContractId": null,
+  "ConfigGenerationGlobalId": "ea1ec2c4-72a5-4cc0-9c1a-90f9ea400507",
+  "EnvironmentId": 1,
+  "Name": "Update Funding Request Requested Amount from Line Items",
+  "Description": "",
+  "IsDebug": false,
+  "IsSystem": false,
+  "ActionList": {
+    "Id": 1230,
+    "GlobalId": "b402ced4-043c-44de-9e5a-c22fec0009b2",
+    "Actions": [
+      {
+        "Id": 869,
+        "GlobalId": "00000000-0000-0000-0000-000000000000",
+        "Description": "Load User",
+        "ActionErrorMessage": null,
+        "ActionStackId": 1230,
+        "ActionType": "LoadUser",
+        "Condition": null,
+        "IsDeleted": false,
+        "IsDisabled": false,
+        "OrderIndex": 0,
+        "DiagramUID": "Activity_05faypj",
+        "ActionParameters": [
+          {
+            "Id": 3750,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 869,
+            "Name": "Id",
+            "Value": "7",
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3751,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 869,
+            "Name": "Portal",
+            "Value": null,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          }
+        ],
+        "Parameters": {},
+        "Metadata": {},
+        "HasActionParameters": false
+      },
+      {
+        "Id": 867,
+        "GlobalId": "00000000-0000-0000-0000-000000000000",
+        "Description": "Compute new requested amount",
+        "ActionErrorMessage": null,
+        "ActionStackId": 1230,
+        "ActionType": "RunSql",
+        "Condition": null,
+        "IsDeleted": false,
+        "IsDisabled": false,
+        "OrderIndex": 1,
+        "DiagramUID": "Activity_0urpk85",
+        "ActionParameters": [
+          {
+            "Id": 3734,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "ConnectionString",
+            "Value": null,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3735,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "QueryTimeout",
+            "Value": null,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3736,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "UseTransactions",
+            "Value": true,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3737,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "SqlQuery",
+            "Value": "SELECT SUM(li.Amount)     FROM app.FundingRequestLineItem li     WHERE li.FundingRequest = @FundingRequest",
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3738,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "OnError",
+            "Value": {
+              "Id": 1235,
+              "GlobalId": "53f8f4f1-9f67-4284-9b36-91711b55d9eb",
+              "Actions": [],
+              "IsInvalid": false
+            },
+            "ActionStackId": 1235,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3739,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "ShowErrors",
+            "Value": null,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3740,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "DbConnector",
+            "Value": {
+              "Entry": "",
+              "Group": "",
+              "EntireGroup": false,
+              "Type": "Database",
+              "IsExpression": false,
+              "Expression": ""
+            },
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3741,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "BindTokens",
+            "Value": [
+              {
+                "name": "FundingRequest",
+                "value": "[FundingRequest:Id]"
+              }
+            ],
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3742,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "OutputTokenName",
+            "Value": "RequestedAmount",
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3743,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 867,
+            "Name": "ExtractColumns",
+            "Value": [],
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          }
+        ],
+        "Parameters": {},
+        "Metadata": {},
+        "HasActionParameters": false
+      },
+      {
+        "Id": 868,
+        "GlobalId": "00000000-0000-0000-0000-000000000000",
+        "Description": "Partially update Funding Request",
+        "ActionErrorMessage": null,
+        "ActionStackId": 1230,
+        "ActionType": "PlantAnApp.PartialUpdateEntity.a6261eaa-157e-4298-817b-d60d9a016d0f",
+        "Condition": null,
+        "IsDeleted": false,
+        "IsDisabled": false,
+        "OrderIndex": 2,
+        "DiagramUID": "Activity_1obb878",
+        "ActionParameters": [
+          {
+            "Id": 3744,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 868,
+            "Name": "ConnectionString",
+            "Value": null,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3745,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 868,
+            "Name": "RecordId",
+            "Value": "[FundingRequest:Id]",
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3746,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 868,
+            "Name": "OnError",
+            "Value": {
+              "Id": 1236,
+              "GlobalId": "07bec573-7c95-461c-a782-32f4949918af",
+              "Actions": [],
+              "IsInvalid": false
+            },
+            "ActionStackId": 1236,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 3747,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 868,
+            "Name": "UpdatedProperties",
+            "Value": [
+              {
+                "PropertyName": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "RequestedAmount"
+                },
+                "PropertyValue": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[RequestedAmount]"
+                }
+              }
+            ],
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          }
+        ],
+        "Parameters": {},
+        "Metadata": {},
+        "HasActionParameters": false
+      }
+    ],
+    "IsInvalid": false
+  },
+  "ActionStackId": 0,
+  "CreatedBy": 2,
+  "CreatedOn": "2026-10-08T16:43:42.9094615+00:00",
+  "LastModifiedBy": 2,
+  "LastModifiedOn": "2026-10-08T17:09:36.3139479+00:00",
+  "DiagramXML": null,
+  "IsCorrupted": false,
+  "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad"
+}

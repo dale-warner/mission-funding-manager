@@ -1,0 +1,4 @@
+{
+  "Name": "Approver",
+  "Description": "Can make approval or rejection decisions on requests routed to them."
+}

@@ -1,0 +1,898 @@
+<module type="ActionForm" version="05.28.238.00">
+    <contentKey />
+    <moduleID>459</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>CONTENT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>DELETE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EXPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>IMPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>MANAGE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>CONTENT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>DELETE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EXPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>IMPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>MANAGE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+    </modulepermissions>
+    <title>Funding Request Line Item Form</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>d6f65b25-f1a6-42e6-adf2-2b003fcc34ee</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings>
+        <modulesetting>
+            <settingname>InternalIdentifier</settingname>
+            <settingvalue>Entity_Form_ed18dda0-7a32-4ac2-8c1c-b9f73a922297</settingvalue>
+        </modulesetting>
+    </modulesettings>
+    <tabmodulesettings />
+    <definition>Action Form</definition>
+    <moduledefinition>avt.Action Form</moduledefinition>
+    <content type="ActionForm" version="05.28.238.00"><![CDATA[&lt;ActionForm&gt;
+  &lt;Fields&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[277]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[h_isEdit]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;HiddenField.IsEdit&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;False&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;h_isEdit&lt;/OverrideName&gt;
+      &lt;Name&gt;h_isEdit&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;hiden-constant&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[isEdit]&quot;,&quot;SaveToReport&quot;:false}&lt;/InputData&gt;
+      &lt;SaveToReport&gt;False&lt;/SaveToReport&gt;
+      &lt;Value&gt;&lt;![CDATA[[isEdit]]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;0&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;7&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[278]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Funding Request]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Field.a1ac7e50-ba3a-4f1f-bd95-3eea7556aeea&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;r_FundingRequestId&lt;/OverrideName&gt;
+      &lt;Name&gt;r_FundingRequestId&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;dropdown-autocomplete&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:FundingRequest]&quot;,&quot;DisplayNumber&quot;:&quot;5&quot;,&quot;DataSource&quot;:{&quot;Value&quot;:&quot;PlantAnApp.EntityRecords&quot;,&quot;Parameters&quot;:{&quot;EntityVersionId&quot;:&quot;8&quot;}},&quot;DisableDropdownOnClick&quot;:&quot;&quot;}&lt;/InputData&gt;
+      &lt;DisplayNumber&gt;5&lt;/DisplayNumber&gt;
+      &lt;DataSource&gt;
+        &lt;Value&gt;PlantAnApp.EntityRecords&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/DataSource&gt;
+      &lt;DisableDropdownOnClick /&gt;
+      &lt;Flag&gt;dropdown&lt;/Flag&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:FundingRequest]]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;True&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[279]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Description]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Field.acdabc3a-6e44-46e8-b11d-44912ecb9111&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;p_Description&lt;/OverrideName&gt;
+      &lt;Name&gt;p_Description&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;open-text&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:Description]&quot;,&quot;AutocompleteUrl&quot;:&quot;&quot;,&quot;AutofillName&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;AutofillAttribute&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Mask&quot;:&quot;&quot;,&quot;MaskOptions&quot;:&quot;{}&quot;,&quot;ConfirmationOfTextBox&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;MaxLength&quot;:450,&quot;AllowTokens&quot;:&quot;&quot;}&lt;/InputData&gt;
+      &lt;AutocompleteUrl /&gt;
+      &lt;AutofillName&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value /&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/AutofillName&gt;
+      &lt;AutofillAttribute&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value /&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/AutofillAttribute&gt;
+      &lt;Mask /&gt;
+      &lt;MaskOptions&gt;{}&lt;/MaskOptions&gt;
+      &lt;ConfirmationOfTextBox&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value /&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ConfirmationOfTextBox&gt;
+      &lt;MaxLength&gt;450&lt;/MaxLength&gt;
+      &lt;AllowTokens /&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:Description]]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;True&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;2&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[280]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Amount]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Field.cd599512-dd42-4be7-bba3-bdbf6d917dff&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;p_Amount&lt;/OverrideName&gt;
+      &lt;Name&gt;p_Amount&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;currency-v2&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:Amount]&quot;,&quot;InitialCurrency&quot;:&quot;USD&quot;,&quot;CurrencyPosition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;before&quot;,&quot;Parameters&quot;:{}},&quot;Precision&quot;:2,&quot;ManualNumberFormatLocaleCode&quot;:&quot;en-US&quot;,&quot;NumberFormatLocaleSource&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;browser&quot;,&quot;Parameters&quot;:{}}}&lt;/InputData&gt;
+      &lt;ManualNumberFormatLocaleCode /&gt;
+      &lt;InitialCurrency&gt;USD&lt;/InitialCurrency&gt;
+      &lt;CurrencyPosition&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;before&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/CurrencyPosition&gt;
+      &lt;Precision&gt;2&lt;/Precision&gt;
+      &lt;NumberFormatLocaleSource&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;browser&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/NumberFormatLocaleSource&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:Amount]]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;True&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;3&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[281]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Quantity]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Field.27f7b290-5ab0-442c-9665-3b0d2b35e3c2&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;p_Quantity&lt;/OverrideName&gt;
+      &lt;Name&gt;p_Quantity&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;open-text&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:Quantity]&quot;,&quot;AutocompleteUrl&quot;:&quot;&quot;,&quot;AutofillName&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;AutofillAttribute&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Mask&quot;:&quot;&quot;,&quot;MaskOptions&quot;:&quot;{}&quot;,&quot;ConfirmationOfTextBox&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;AllowTokens&quot;:&quot;&quot;}&lt;/InputData&gt;
+      &lt;AutocompleteUrl /&gt;
+      &lt;AutofillName&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value /&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/AutofillName&gt;
+      &lt;AutofillAttribute&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value /&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/AutofillAttribute&gt;
+      &lt;Mask /&gt;
+      &lt;MaskOptions&gt;{}&lt;/MaskOptions&gt;
+      &lt;ConfirmationOfTextBox&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value /&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ConfirmationOfTextBox&gt;
+      &lt;AllowTokens /&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:Quantity]]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1&gt;Floating Point Number&lt;/CustomValidator1&gt;
+      &lt;CustomValidator1JsName&gt;float&lt;/CustomValidator1JsName&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;4&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[282]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Unit Cost]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Field.b839ab82-a386-46c7-820e-54702f98bd2f&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;p_UnitCost&lt;/OverrideName&gt;
+      &lt;Name&gt;p_UnitCost&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;currency-v2&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:UnitCost]&quot;,&quot;InitialCurrency&quot;:&quot;USD&quot;,&quot;CurrencyPosition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;before&quot;,&quot;Parameters&quot;:{}},&quot;Precision&quot;:2,&quot;ManualNumberFormatLocaleCode&quot;:&quot;en-US&quot;,&quot;NumberFormatLocaleSource&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;browser&quot;,&quot;Parameters&quot;:{}}}&lt;/InputData&gt;
+      &lt;ManualNumberFormatLocaleCode /&gt;
+      &lt;InitialCurrency&gt;USD&lt;/InitialCurrency&gt;
+      &lt;CurrencyPosition&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;before&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/CurrencyPosition&gt;
+      &lt;Precision&gt;2&lt;/Precision&gt;
+      &lt;NumberFormatLocaleSource&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;browser&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/NumberFormatLocaleSource&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:UnitCost]]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;5&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[283]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Sort Order]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Field.c823aaf1-2c4b-4cf0-9fe6-a0862d40a233&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;p_SortOrder&lt;/OverrideName&gt;
+      &lt;Name&gt;p_SortOrder&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;open-number&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;[original:SortOrder]&quot;}&lt;/InputData&gt;
+      &lt;Flag&gt;number&lt;/Flag&gt;
+      &lt;Value&gt;&lt;![CDATA[[original:SortOrder]]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1&gt;Integer Number&lt;/CustomValidator1&gt;
+      &lt;CustomValidator1JsName&gt;number&lt;/CustomValidator1JsName&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;6&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[284]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Add]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;Add&lt;/OverrideName&gt;
+      &lt;Name&gt;Add&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[![h_isEdit]]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;button&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;CausesValidation&quot;:true,&quot;IsDefaultButton&quot;:true,&quot;ButtonSize&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Normal&quot;,&quot;Parameters&quot;:{}},&quot;ButtonAlign&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Left&quot;,&quot;Parameters&quot;:{}},&quot;ButtonIcon&quot;:&quot;&quot;,&quot;ButtonExecutingActionMessage&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;localize&quot;,&quot;Parameters&quot;:{}},&quot;ButtonWaitingMessage&quot;:&quot;Please wait...&quot;,&quot;ButtonType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-primary&quot;,&quot;Parameters&quot;:{}}}&lt;/InputData&gt;
+      &lt;CausesValidation&gt;True&lt;/CausesValidation&gt;
+      &lt;IsDefaultButton&gt;True&lt;/IsDefaultButton&gt;
+      &lt;ButtonSize&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;Normal&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonSize&gt;
+      &lt;ButtonAlign&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;Left&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonAlign&gt;
+      &lt;ButtonIcon /&gt;
+      &lt;ButtonExecutingActionMessage&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;localize&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonExecutingActionMessage&gt;
+      &lt;ButtonWaitingMessage&gt;Please wait...&lt;/ButtonWaitingMessage&gt;
+      &lt;ButtonType&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;btn-primary&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonType&gt;
+      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;7&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;9&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;3&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[285]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[Update]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;MetadataJson&gt;&lt;![CDATA[{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Update&quot;}]]&gt;&lt;/MetadataJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;Update&lt;/OverrideName&gt;
+      &lt;Name&gt;Update&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[[h_isEdit]]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;button&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;CausesValidation&quot;:true,&quot;IsDefaultButton&quot;:true,&quot;ButtonSize&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Normal&quot;,&quot;Parameters&quot;:{}},&quot;ButtonAlign&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Left&quot;,&quot;Parameters&quot;:{}},&quot;ButtonIcon&quot;:&quot;&quot;,&quot;ButtonExecutingActionMessage&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;localize&quot;,&quot;Parameters&quot;:{}},&quot;ButtonWaitingMessage&quot;:&quot;Please wait...&quot;,&quot;ButtonType&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;btn-primary&quot;,&quot;Parameters&quot;:{}}}&lt;/InputData&gt;
+      &lt;CausesValidation&gt;True&lt;/CausesValidation&gt;
+      &lt;IsDefaultButton&gt;True&lt;/IsDefaultButton&gt;
+      &lt;ButtonSize&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;Normal&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonSize&gt;
+      &lt;ButtonAlign&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;Left&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonAlign&gt;
+      &lt;ButtonIcon /&gt;
+      &lt;ButtonExecutingActionMessage&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;localize&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonExecutingActionMessage&gt;
+      &lt;ButtonWaitingMessage&gt;Please wait...&lt;/ButtonWaitingMessage&gt;
+      &lt;ButtonType&gt;
+        &lt;IsExpression&gt;False&lt;/IsExpression&gt;
+        &lt;Expression /&gt;
+        &lt;Value&gt;btn-primary&lt;/Value&gt;
+        &lt;Parameters&gt;System.Collections.Generic.Dictionary`2[System.String,System.Object]&lt;/Parameters&gt;
+      &lt;/ButtonType&gt;
+      &lt;Value&gt;&lt;![CDATA[]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;7&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;9&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;3&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+  &lt;/Fields&gt;
+  &lt;Settings&gt;
+    &lt;Title&gt;Funding Request Line Item Form&lt;/Title&gt;
+    &lt;CssName&gt;funding-request-line-item-form&lt;/CssName&gt;
+    &lt;Version&gt;5.28.0&lt;/Version&gt;
+    &lt;Build&gt;5.28.238&lt;/Build&gt;
+    &lt;CultureCode&gt;en&lt;/CultureCode&gt;
+    &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
+    &lt;FrontEndTemplate /&gt;
+    &lt;HasCustomLayout&gt;False&lt;/HasCustomLayout&gt;
+    &lt;ShowLoading&gt;False&lt;/ShowLoading&gt;
+    &lt;LoadingBarsColor&gt;#00c0ef&lt;/LoadingBarsColor&gt;
+    &lt;LoadingBackgroundColor&gt;#fff&lt;/LoadingBackgroundColor&gt;
+    &lt;LoadingText /&gt;
+    &lt;TabsProLoading&gt;False&lt;/TabsProLoading&gt;
+    &lt;LayoutHtml&gt;&lt;![CDATA[]]&gt;&lt;/LayoutHtml&gt;
+    &lt;CurrentContext&gt;ExportImport&lt;/CurrentContext&gt;
+    &lt;LabelAlign&gt;top&lt;/LabelAlign&gt;
+    &lt;LabelWidth&gt;3&lt;/LabelWidth&gt;
+    &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
+    &lt;OpenFormMode&gt;Manual&lt;/OpenFormMode&gt;
+    &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+    &lt;ModuleVersion&gt;5.28.238&lt;/ModuleVersion&gt;
+    &lt;TabId&gt;62&lt;/TabId&gt;
+    &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
+    &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
+    &lt;FormTemplate&gt;bootstrap5&lt;/FormTemplate&gt;
+    &lt;FormTemplateFolder&gt;/DesktopModules/DnnSharp/ActionForm/templates/Form/bootstrap5&lt;/FormTemplateFolder&gt;
+    &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+    &lt;IsDebug&gt;False&lt;/IsDebug&gt;
+    &lt;EnableReports&gt;False&lt;/EnableReports&gt;
+    &lt;ClientSideValidation&gt;True&lt;/ClientSideValidation&gt;
+    &lt;RequiredFieldAllowsWhiteSpace&gt;False&lt;/RequiredFieldAllowsWhiteSpace&gt;
+    &lt;OnFocusoutValidation&gt;False&lt;/OnFocusoutValidation&gt;
+    &lt;ShowTooltips&gt;False&lt;/ShowTooltips&gt;
+    &lt;ShowTooltipTitle&gt;True&lt;/ShowTooltipTitle&gt;
+    &lt;ShowFormCondition&gt;([HasRole:Admins] || [HasRole:Approver] || [HasRole:CitizenDevelopers] || [HasRole:Low-CodeEngineer] || [HasRole:Managers] || [HasRole:MFMAdministrator] || [HasRole:ProgramManager] || [HasRole:Reviewer] || ([CreatedBy] == [User:UserId] &amp;amp;&amp;amp; ([HasRole:Requester])))&lt;/ShowFormCondition&gt;
+    &lt;InitJs&gt;&lt;![CDATA[]]&gt;&lt;/InitJs&gt;
+    &lt;PopupWidth&gt;600&lt;/PopupWidth&gt;
+    &lt;WidthCoordinate&gt;px&lt;/WidthCoordinate&gt;
+    &lt;PopupHeight /&gt;
+    &lt;SubmitHiddenFields&gt;False&lt;/SubmitHiddenFields&gt;
+    &lt;CacheFormInit&gt;False&lt;/CacheFormInit&gt;
+    &lt;IncludeBootstrap&gt;True&lt;/IncludeBootstrap&gt;
+    &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
+    &lt;FloatingLabels&gt;False&lt;/FloatingLabels&gt;
+    &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
+    &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
+    &lt;TextColor /&gt;
+    &lt;Padding&gt;0&lt;/Padding&gt;
+    &lt;DateFormat&gt;m/d/yy&lt;/DateFormat&gt;
+    &lt;BaseId&gt;dnn459&lt;/BaseId&gt;
+    &lt;PopupName&gt;[popupTitle]&lt;/PopupName&gt;
+    &lt;RootClasses /&gt;
+    &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
+    &lt;RevisionNumber&gt;2&lt;/RevisionNumber&gt;
+    &lt;RevisionLastChangedBy&gt;dale.warner@plantanapp.com&lt;/RevisionLastChangedBy&gt;
+    &lt;RevisionLastChangedDate&gt;2026-10-06T16:49:08.5848426+00:00&lt;/RevisionLastChangedDate&gt;
+  &lt;/Settings&gt;
+  &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;0&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.InitializeVariablesWithDefaultValues&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;isEdit&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;popupTitle&quot;,&quot;value&quot;:&quot;Add Funding Request Line Item&quot;},{&quot;name&quot;:&quot;original:FundingRequest&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Description&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Amount&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Quantity&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:UnitCost&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:SortOrder&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;0&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.CheckEditMode&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
+      &lt;Description&gt;Check if in edit mode&lt;/Description&gt;
+      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;isEdit&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;popupTitle&quot;,&quot;value&quot;:&quot;Edit Funding Request Line Item&quot;}]}&lt;/ActionData&gt;
+      &lt;Condition&gt;!string.IsNullOrWhiteSpace([QueryString:FundingRequestLineItemId=])&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;0&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.LoadEntityValues&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;ed18dda0-7a32-4ac2-8c1c-b9f73a922297&lt;/EntityIdentifier&gt;
+        &lt;IsUidEnabled&gt;True&lt;/IsUidEnabled&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;PlantAnApp.ReadEntity.ed18dda0-7a32-4ac2-8c1c-b9f73a922297&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:FundingRequestLineItemId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
+      &lt;Condition&gt;[isEdit]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;0&lt;/ModuleId&gt;
+      &lt;EventName&gt;init&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckAddPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:Requester]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to add items.&quot;}&lt;/ActionData&gt;
+      &lt;Condition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:Requester]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;0&lt;/ModuleId&gt;
+      &lt;EventName&gt;init&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckEditPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:Approver] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:ProgramManager] &amp;amp;&amp;amp; ![HasRole:Requester] &amp;amp;&amp;amp; ![HasRole:Reviewer]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
+      &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:Approver] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:ProgramManager] &amp;amp;&amp;amp; ![HasRole:Requester] &amp;amp;&amp;amp; ![HasRole:Reviewer]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckAddPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:Requester]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to add items.&quot;}&lt;/ActionData&gt;
+      &lt;Condition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:Requester]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Add.CreateEntity&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;ed18dda0-7a32-4ac2-8c1c-b9f73a922297&lt;/EntityIdentifier&gt;
+        &lt;IsUidEnabled&gt;True&lt;/IsUidEnabled&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;PlantAnApp.CreateEntity.ed18dda0-7a32-4ac2-8c1c-b9f73a922297&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;OutputToken&quot;:&quot;NewFundingRequestLineItemId&quot;,&quot;FundingRequest&quot;:&quot;[r_FundingRequestId]&quot;,&quot;Description&quot;:&quot;[p_Description]&quot;,&quot;Amount&quot;:&quot;[p_Amount]&quot;,&quot;Quantity&quot;:&quot;[p_Quantity]&quot;,&quot;UnitCost&quot;:&quot;[p_UnitCost]&quot;,&quot;SortOrder&quot;:&quot;[p_SortOrder]&quot;}&lt;/ActionData&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Add.ConfirmationToast&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;ShowToastAndContinue&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;AllowToastClose&quot;:true,&quot;Heading&quot;:&quot;Success&quot;,&quot;Icon&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;success&quot;},&quot;Transition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;slide&quot;},&quot;HideTime&quot;:&quot;10000&quot;,&quot;ToastPosition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;top-right&quot;},&quot;Stack&quot;:&quot;3&quot;,&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;Your data was saved&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=\&quot;//[Portal:url]/Administration/FundingRequests/FundingRequestLineItems/Detail?FundingRequestLineItemId=[NewFundingRequestLineItemId]\&quot;&amp;gt;View details&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;ShowLoader&quot;:true,&quot;LoaderColor&quot;:&quot;#FFFF00&quot;}&lt;/ActionData&gt;
+      &lt;Condition /&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Add.RefreshGrid&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;RefreshGrid&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;eda5e977-a7e7-43d8-bc0e-7ccb63625eb7&quot;}}&lt;/ActionData&gt;
+      &lt;Condition /&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Add&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Add.ClosePopup&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;CloseAFPopup&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;db0621e3-5f14-4db3-91db-f1aefc53f351&quot;}}&lt;/ActionData&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckEditPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:Approver] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:ProgramManager] &amp;amp;&amp;amp; ![HasRole:Requester] &amp;amp;&amp;amp; ![HasRole:Reviewer]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
+      &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:Admins] &amp;amp;&amp;amp; ![HasRole:Approver] &amp;amp;&amp;amp; ![HasRole:CitizenDevelopers] &amp;amp;&amp;amp; ![HasRole:Low-CodeEngineer] &amp;amp;&amp;amp; ![HasRole:Managers] &amp;amp;&amp;amp; ![HasRole:MFMAdministrator] &amp;amp;&amp;amp; ![HasRole:ProgramManager] &amp;amp;&amp;amp; ![HasRole:Requester] &amp;amp;&amp;amp; ![HasRole:Reviewer]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.UpdateEntity&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;ed18dda0-7a32-4ac2-8c1c-b9f73a922297&lt;/EntityIdentifier&gt;
+        &lt;IsUidEnabled&gt;True&lt;/IsUidEnabled&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;PlantAnApp.UpdateEntity.ed18dda0-7a32-4ac2-8c1c-b9f73a922297&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:FundingRequestLineItemId=]&quot;,&quot;FundingRequest&quot;:&quot;[r_FundingRequestId]&quot;,&quot;Description&quot;:&quot;[p_Description]&quot;,&quot;Amount&quot;:&quot;[p_Amount]&quot;,&quot;Quantity&quot;:&quot;[p_Quantity]&quot;,&quot;UnitCost&quot;:&quot;[p_UnitCost]&quot;,&quot;SortOrder&quot;:&quot;[p_SortOrder]&quot;}&lt;/ActionData&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.RefreshDetailForm&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;InitActionFormAndContinue&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:true,&quot;Expression&quot;:&quot;0608e79b-8867-43b1-9e43-3e71917f6fdf&quot;,&quot;Value&quot;:&quot;&quot;},&quot;Params&quot;:null}&lt;/ActionData&gt;
+      &lt;Condition&gt;[QueryString:detailPage=false]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.RefreshDetailTitleForm&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;InitActionFormAndContinue&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:true,&quot;Expression&quot;:&quot;7ff305b0-6221-4685-8728-f9f6cd9b286c&quot;,&quot;Value&quot;:&quot;&quot;},&quot;Params&quot;:null}&lt;/ActionData&gt;
+      &lt;Condition&gt;[QueryString:detailPage=false]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.ConfirmationToast&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;ShowToastAndContinue&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;AllowToastClose&quot;:true,&quot;Heading&quot;:&quot;Success&quot;,&quot;Icon&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;success&quot;},&quot;Transition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;slide&quot;},&quot;HideTime&quot;:&quot;10000&quot;,&quot;ToastPosition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;top-right&quot;},&quot;Stack&quot;:&quot;3&quot;,&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;Your data was saved&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=\&quot;//[Portal:url]/Administration/FundingRequests/FundingRequestLineItems/Detail?FundingRequestLineItemId=[QueryString:FundingRequestLineItemId=]\&quot;&amp;gt;View details&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;ShowLoader&quot;:true,&quot;LoaderColor&quot;:&quot;#FFFF00&quot;}&lt;/ActionData&gt;
+      &lt;Condition&gt;![QueryString:detailPage=false]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.RefreshGrid&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;5&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;RefreshGrid&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;eda5e977-a7e7-43d8-bc0e-7ccb63625eb7&quot;}}&lt;/ActionData&gt;
+      &lt;Condition&gt;![QueryString:detailPage=false]&lt;/Condition&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;ModuleId&gt;459&lt;/ModuleId&gt;
+      &lt;FieldName&gt;Update&lt;/FieldName&gt;
+      &lt;EventName&gt;click&lt;/EventName&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Button.Update.ClosePopup&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+      &lt;OrderIndex&gt;6&lt;/OrderIndex&gt;
+      &lt;ActionType&gt;CloseAFPopup&lt;/ActionType&gt;
+      &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;db0621e3-5f14-4db3-91db-f1aefc53f351&quot;}}&lt;/ActionData&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+    &lt;/ActionInfo&gt;
+  &lt;/Actions&gt;
+&lt;/ActionForm&gt;]]></content>
+</module>
