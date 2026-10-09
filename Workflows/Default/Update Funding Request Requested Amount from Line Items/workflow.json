@@ -37,7 +37,7 @@
   "ConfigGenerationGlobalId": "ea1ec2c4-72a5-4cc0-9c1a-90f9ea400507",
   "EnvironmentId": 1,
   "Name": "Update Funding Request Requested Amount from Line Items",
-  "Description": "",
+  "Description": "Provide the Funding Request; Line items will be totaled",
   "IsDebug": false,
   "IsSystem": false,
   "ActionList": {
@@ -348,7 +348,7 @@
   "CreatedBy": 2,
   "CreatedOn": "2026-10-08T16:43:42.9094615+00:00",
   "LastModifiedBy": 2,
-  "LastModifiedOn": "2026-10-08T17:09:36.3139479+00:00",
+  "LastModifiedOn": "2026-10-09T01:00:05.1710531+00:00",
   "DiagramXML": null,
   "IsCorrupted": false,
   "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad"
