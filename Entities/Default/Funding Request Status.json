@@ -59,6 +59,32 @@
       "IsFilterable": true,
       "IsSortable": true,
       "OrderIndex": 2
+    },
+    {
+      "Id": 56,
+      "GlobalId": "81941b7a-3e38-472c-ae36-372f21ac9f7a",
+      "EntityVersionId": 9,
+      "Name": "Requestor May Submit",
+      "Type": {
+        "Id": "Boolean",
+        "Name": "Boolean",
+        "InputType": {
+          "Id": "Boolean",
+          "Name": "Boolean",
+          "ValueType": 0,
+          "Length": 1,
+          "Icon": "check_circle_outline"
+        }
+      },
+      "DefaultValue": null,
+      "NullRecordsValue": null,
+      "EntityVersionRefId": null,
+      "IsDeleted": false,
+      "IsRequired": false,
+      "IsSearchable": false,
+      "IsFilterable": true,
+      "IsSortable": true,
+      "OrderIndex": 3
     }
   ],
   "RolePermissions": {
@@ -254,7 +280,7 @@
   "CreatedDate": "2026-10-06T16:34:15.08",
   "CreatedBy": "Dale Warner",
   "LastModifiedBy": "Dale Warner",
-  "LastModifiedOn": "2026-10-09T03:26:35.8",
+  "LastModifiedOn": "2026-10-09T11:04:01.4",
   "Icon": "table",
   "Type": 0,
   "BuiltInType": null,

@@ -19,7 +19,7 @@
     {
       "Id": 30,
       "Name": "RequestedAmount",
-      "DefaultValue": "[RequestedAmount]",
+      "DefaultValue": "[RequestedAmount=0]",
       "Type": "Output",
       "InputType": "Text",
       "EntityVersionId": null,
@@ -325,7 +325,7 @@
                 "PropertyValue": {
                   "IsExpression": false,
                   "Expression": "",
-                  "Value": "[RequestedAmount]"
+                  "Value": "[RequestedAmount=0]"
                 }
               }
             ],
@@ -348,7 +348,7 @@
   "CreatedBy": 2,
   "CreatedOn": "2026-10-08T16:43:42.9094615+00:00",
   "LastModifiedBy": 2,
-  "LastModifiedOn": "2026-10-09T01:00:05.1710531+00:00",
+  "LastModifiedOn": "2026-10-09T11:14:03.2117898+00:00",
   "DiagramXML": null,
   "IsCorrupted": false,
   "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad"

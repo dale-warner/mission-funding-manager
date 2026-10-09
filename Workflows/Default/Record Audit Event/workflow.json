@@ -40,7 +40,7 @@
       "IsDeleted": false,
       "Required": false,
       "Description": "Optional new status",
-      "OrderIndex": 2
+      "OrderIndex": 3
     },
     {
       "Id": 34,
@@ -54,7 +54,21 @@
       "IsDeleted": false,
       "Required": true,
       "Description": null,
-      "OrderIndex": 3
+      "OrderIndex": 4
+    },
+    {
+      "Id": 36,
+      "Name": "FromStatus",
+      "DefaultValue": "",
+      "Type": "Input",
+      "InputType": "EntityRef",
+      "EntityVersionId": 9,
+      "WorkflowId": 25,
+      "ContractFieldId": null,
+      "IsDeleted": false,
+      "Required": false,
+      "Description": null,
+      "OrderIndex": 2
     }
   ],
   "OutputFields": [
@@ -71,6 +85,20 @@
       "Required": false,
       "Description": null,
       "OrderIndex": 0
+    },
+    {
+      "Id": 37,
+      "Name": "debug",
+      "DefaultValue": "[FromStatusValue]",
+      "Type": "Output",
+      "InputType": "Text",
+      "EntityVersionId": null,
+      "WorkflowId": 25,
+      "ContractFieldId": null,
+      "IsDeleted": false,
+      "Required": false,
+      "Description": null,
+      "OrderIndex": 1
     }
   ],
   "Id": 25,
@@ -87,6 +115,130 @@
     "GlobalId": "9bda1238-206a-4fd7-8150-a956e16af97c",
     "Actions": [
       {
+        "Id": 999,
+        "GlobalId": "00000000-0000-0000-0000-000000000000",
+        "Description": "Default FromStatusValue",
+        "ActionErrorMessage": null,
+        "ActionStackId": 1403,
+        "ActionType": "ApplyTokens",
+        "Condition": null,
+        "IsDeleted": false,
+        "IsDisabled": false,
+        "OrderIndex": 0,
+        "DiagramUID": "Activity_1tt7d1j",
+        "ActionParameters": [
+          {
+            "Id": 4129,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 999,
+            "Name": "TokenizeTokenNames",
+            "Value": null,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 4130,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 999,
+            "Name": "RecursionCount",
+            "Value": "1",
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 4131,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 999,
+            "Name": "Tokens",
+            "Value": [
+              {
+                "name": "FromStatusValue",
+                "value": "[FromStatus:Id]"
+              }
+            ],
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          }
+        ],
+        "Parameters": {},
+        "Metadata": {},
+        "HasActionParameters": false
+      },
+      {
+        "Id": 996,
+        "GlobalId": "00000000-0000-0000-0000-000000000000",
+        "Description": "FromStatusValue",
+        "ActionErrorMessage": null,
+        "ActionStackId": 1403,
+        "ActionType": "ApplyTokens",
+        "Condition": "[FromStatusValue] == \"\"",
+        "IsDeleted": false,
+        "IsDisabled": false,
+        "OrderIndex": 1,
+        "DiagramUID": "Activity_0o9017p",
+        "ActionParameters": [
+          {
+            "Id": 4124,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 996,
+            "Name": "TokenizeTokenNames",
+            "Value": null,
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 4125,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 996,
+            "Name": "RecursionCount",
+            "Value": "1",
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          },
+          {
+            "Id": 4126,
+            "GlobalId": "00000000-0000-0000-0000-000000000000",
+            "ActionId": 996,
+            "Name": "Tokens",
+            "Value": [
+              {
+                "name": "FromStatusValue",
+                "value": "[FundingRequest:Status]"
+              }
+            ],
+            "ActionStackId": null,
+            "ParentParameterId": null,
+            "IsExpression": false,
+            "OrderIndex": 0,
+            "LastModified": "0001-01-01T00:00:00+00:00",
+            "LastModifiedBy": null
+          }
+        ],
+        "Parameters": {},
+        "Metadata": {},
+        "HasActionParameters": false
+      },
+      {
         "Id": 983,
         "GlobalId": "00000000-0000-0000-0000-000000000000",
         "Description": "Create New Audit Event",
@@ -96,7 +248,7 @@
         "Condition": null,
         "IsDeleted": false,
         "IsDisabled": false,
-        "OrderIndex": 0,
+        "OrderIndex": 2,
         "DiagramUID": "Activity_1an9gez",
         "ActionParameters": [
           {
@@ -156,7 +308,7 @@
             "GlobalId": "00000000-0000-0000-0000-000000000000",
             "ActionId": 983,
             "Name": "FromStatus",
-            "Value": "[FundingRequest:Status]",
+            "Value": "[FromStatusValue]",
             "ActionStackId": null,
             "ParentParameterId": null,
             "IsExpression": false,
@@ -169,7 +321,7 @@
             "GlobalId": "00000000-0000-0000-0000-000000000000",
             "ActionId": 983,
             "Name": "ToStatus",
-            "Value": "[ToStatus]",
+            "Value": "[ToStatus:Id]",
             "ActionStackId": null,
             "ParentParameterId": null,
             "IsExpression": false,
@@ -233,7 +385,7 @@
   "CreatedBy": 2,
   "CreatedOn": "2026-10-09T10:24:14.3789257+00:00",
   "LastModifiedBy": 2,
-  "LastModifiedOn": "2026-10-09T10:47:31.3144394+00:00",
+  "LastModifiedOn": "2026-10-09T11:49:10.7389989+00:00",
   "DiagramXML": null,
   "IsCorrupted": false,
   "NamespaceUid": "8098259e-211f-491a-b2c3-4f12861210ad"

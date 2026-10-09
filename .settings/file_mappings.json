@@ -317,11 +317,11 @@
     {
       "GlobalId": "c9908305-8b8c-4d52-b175-67ede99d73fc",
       "ParentPageId": "0ca95b69-aa4e-49d8-a4ec-0aa3e14a8d8c",
-      "ModuleTitle": "avt.TabsPro",
+      "ModuleTitle": "Request Tabs",
       "FriendlyName": "avt.TabsPro",
       "PaneName": "ContentPane",
       "Order": 1,
-      "ContentPath": "Pages/MyRequests/AddEditRequest/Untitled avt.TabsPro 1 in ContentPane.xml"
+      "ContentPath": "Pages/MyRequests/AddEditRequest/Request Tabs.xml"
     },
     {
       "GlobalId": "91a779e3-3925-49a2-bd7c-c762a27bc455",

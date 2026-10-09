@@ -324,9 +324,9 @@
     &lt;PopupName /&gt;
     &lt;RootClasses&gt;detail-form-root&lt;/RootClasses&gt;
     &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
-    &lt;RevisionNumber&gt;7&lt;/RevisionNumber&gt;
+    &lt;RevisionNumber&gt;8&lt;/RevisionNumber&gt;
     &lt;RevisionLastChangedBy&gt;dale.warner@plantanapp.com&lt;/RevisionLastChangedBy&gt;
-    &lt;RevisionLastChangedDate&gt;2026-10-09T03:26:38.9290630+00:00&lt;/RevisionLastChangedDate&gt;
+    &lt;RevisionLastChangedDate&gt;2026-10-09T11:04:04.8882406+00:00&lt;/RevisionLastChangedDate&gt;
   &lt;/Settings&gt;
   &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
     &lt;ActionInfo&gt;
@@ -402,7 +402,7 @@
       &lt;/Metadata&gt;
       &lt;OrderIndex&gt;5&lt;/OrderIndex&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.f94caea6-8dd2-4ded-84ad-18aebe865b72&lt;/ActionType&gt;
-      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:RequesterUser]&quot;,&quot;OutputToken&quot;:&quot;originalRequesterUser&quot;,&quot;BypassPermissions&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:null}}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[original:RequesterUser]&quot;,&quot;OutputToken&quot;:&quot;originalRequesterUser&quot;,&quot;BypassPermissions&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;}}&lt;/ActionData&gt;
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
     &lt;/ActionInfo&gt;
     &lt;ActionInfo&gt;
