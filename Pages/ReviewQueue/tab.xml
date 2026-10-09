@@ -203,12 +203,16 @@
     </tabpermissions>
     <tabsettings>
         <tabsetting>
+            <settingname>LinkNewWindow</settingname>
+            <settingvalue>False</settingvalue>
+        </tabsetting>
+        <tabsetting>
             <settingname>AllowIndex</settingname>
             <settingvalue>True</settingvalue>
         </tabsetting>
         <tabsetting>
-            <settingname>LinkNewWindow</settingname>
-            <settingvalue>False</settingvalue>
+            <settingname>CustomStylesheet</settingname>
+            <settingvalue>PageStylesheets/ 46.css</settingvalue>
         </tabsetting>
     </tabsettings>
     <tabUrls>

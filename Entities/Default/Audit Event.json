@@ -432,6 +432,16 @@
         "RoleId": 14,
         "RoleName": "Approver",
         "Value": "true"
+      },
+      {
+        "Id": 305,
+        "PermissionType": {
+          "Id": 1,
+          "Name": "Can View"
+        },
+        "RoleId": 14,
+        "RoleName": "Approver",
+        "Value": "all"
       }
     ]
   },
@@ -446,7 +456,7 @@
   "CreatedDate": "2026-10-09T10:12:08.2833333",
   "CreatedBy": "Dale Warner",
   "LastModifiedBy": "Dale Warner",
-  "LastModifiedOn": "2026-10-09T11:42:15.4566667",
+  "LastModifiedOn": "2026-10-09T19:53:00.0366667",
   "Icon": "table",
   "Type": 0,
   "BuiltInType": null,

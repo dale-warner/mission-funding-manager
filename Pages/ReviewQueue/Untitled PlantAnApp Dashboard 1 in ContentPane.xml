@@ -1,0 +1,132 @@
+<module type="PlantAnAppDashboard" version="05.28.66.00">
+    <contentKey />
+    <moduleID>507</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Administrators</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Citizen Developers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Low-Code Engineer</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>CONTENT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>DELETE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EXPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>IMPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>MANAGE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>CONTENT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>DELETE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EXPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>IMPORT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>MANAGE</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>EDIT</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Editors</rolename>
+        </permission>
+        <permission>
+            <permissioncode>SYSTEM_MODULE_DEFINITION</permissioncode>
+            <permissionkey>VIEW</permissionkey>
+            <allowaccess>true</allowaccess>
+            <rolename>Content Managers</rolename>
+        </permission>
+    </modulepermissions>
+    <title>PlantAnApp Dashboard</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>6e29c930-73e5-430c-81da-9b69dfb7df58</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>PlantAnAppDashboard</definition>
+    <moduledefinition>PlantAnApp Dashboard</moduledefinition>
+</module>
